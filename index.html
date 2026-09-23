@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Photo Assignment</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 40px;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    .gallery {
+      max-width: 900px;
+      margin: 40px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>My Photography Assignment</h1>
+  <p>Created by Ke Yang</p>
+
+  <div class="gallery">
+    <img src="images/0.5_10cm_14mm.HEIC" alt="Photo 1">
+    <img src="images/0.8_15cm_20mm.HEIC" alt="Photo 2">
+    <img src="images/1.2_20cm_28mm.HEIC" alt="Photo 3">
+  </div>
+</body>
+</html>
