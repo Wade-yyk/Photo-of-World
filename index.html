@@ -1,48 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Photo Assignment</title>
-
-  <style>
-    body {
-      margin: 0;
-      padding: 40px;
-      font-family: Arial, sans-serif;
-      background: #f5f5f5;
-      text-align: center;
-    }
-
-    h1 {
-      margin-bottom: 10px;
-    }
-
-    .gallery {
-      max-width: 900px;
-      margin: 40px auto;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-
-    .gallery img {
-      width: 100%;
-      height: 300px;
-      object-fit: cover;
-      border-radius: 10px;
-    }
-  </style>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Ke Yang's SYDE 671 photographic exploration of perspective, focal length, and the dolly zoom.">
+<title>Becoming Friends with My Camera | Ke Yang · SYDE 671</title>
+<link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
 </head>
-
 <body>
-  <h1>My Photography Assignment</h1>
-  <p>Created by Ke Yang</p>
-
-  <div class="gallery">
-    <img src="images/0.5_10cm_14mm.HEIC" alt="Photo 1">
-    <img src="images/0.8_15cm_20mm.HEIC" alt="Photo 2">
-    <img src="images/1.2_20cm_28mm.HEIC" alt="Photo 3">
-  </div>
-</body>
-</html>
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="shell masthead"><a class="wordmark" href="#top">PHOTO<span>OF THE WORLD</span></a><div class="course">UNIVERSITY OF WATERLOO<span>SYDE 671 · Computational vision</span></div></div></header>
+<nav aria-label="Project sections"><div class="shell nav-inner"><a class="assignment" href="#top">ASSIGNMENT 01 <span>/ PART ONE</span></a><div class="nav-links"><a href="#portraits">01 Portraits</a><a href="#architecture">02 Architecture</a><a href="#dolly">03 Dolly zoom</a></div></div></nav>
+<main id="main">
+<section class="hero shell" id="top"><div class="eyebrow"><i></i> A PHOTOGRAPHIC EXPLORATION</div><h1>Becoming friends<br>with my <em>camera.</em></h1><div class="hero-bottom"><p>One camera. A change in distance. A different perspective.<br>Exploring how where we stand changes what we see.</p><div class="byline">PHOTOGRAPHY & OBSERVATIONS<strong>Ke Yang</strong><span>SYDE 671 / Assignment 1 / Part One</span></div></div></section>
+<section class="study shell" id="portraits" aria-labelledby="portrait-title">
+<div class="section-heading"><span class="number">01</span><div><div class="eyebrow">SELFIE: THE WRONG WAY VS. THE RIGHT WAY</div><h2 id="portrait-title">Same face. Different perspective.</h2></div></div>
+<p class="intro">From 10 cm to one metre away, I stepped back and increased the zoom to keep my face at a similar size. The change in facial proportions tells the story.</p>
+<div class="gallery-note"><b>THE PORTRAIT SERIES</b><span>↻ Click a marked portrait for its alter ego. Click again to return.</span></div>
+<div class="portrait-grid">
+<figure><button class="portrait-toggle" data-original="assets/0.5_10cm_14mm.jpg" data-abstract="assets/0.5_abstract.jpg" aria-label="Toggle 0.5× portrait and abstract image" aria-pressed="false"><img src="assets/0.5_10cm_14mm.jpg" alt="Close-up selfie at 0.5× zoom from 10 cm away" width="1200" height="1600"><span class="flip-hint">↻ ALTER EGO</span></button><figcaption><div><strong>0.5×</strong><span>14 mm</span></div><p>10 cm away</p></figcaption></figure>
+<figure><button class="portrait-toggle" data-original="assets/0.8_15cm_20mm.jpg" data-abstract="assets/0.8_abstract.jpg" aria-label="Toggle 0.8× portrait and abstract image" aria-pressed="false"><img src="assets/0.8_15cm_20mm.jpg" alt="Selfie at 0.8× zoom from 15 cm away" width="1200" height="1600"><span class="flip-hint">↻ ALTER EGO</span></button><figcaption><div><strong>0.8×</strong><span>20 mm</span></div><p>15 cm away</p></figcaption></figure>
+<figure><div class="portrait-static"><img src="assets/1.2_20cm_28mm.jpg" alt="Selfie at 1.2× zoom from 20 cm away" width="1200" height="1600"><span class="original-label">ORIGINAL</span></div><figcaption><div><strong>1.2×</strong><span>28 mm</span></div><p>20 cm away</p></figcaption></figure>
+<figure><button class="portrait-toggle" data-original="assets/2.0_40cm_50mm.jpg" data-abstract="assets/2.0_abstract.jpg" aria-label="Toggle 2.0× portrait and abstract image" aria-pressed="false"><img src="assets/2.0_40cm_50mm.jpg" alt="Selfie at 2.0× zoom from 40 cm away" width="1200" height="1600"><span class="flip-hint">↻ ALTER EGO</span></button><figcaption><div><strong>2.0×</strong><span>50 mm</span></div><p>40 cm away</p></figcaption></figure>
+<figure><button class="portrait-toggle" data-original="assets/4.0_100cm_100mm.jpg" data-abstract="assets/4.0_abstract.jpg" aria-label="Toggle 4.0× portrait and abstract image" aria-pressed="false"><img src="assets/4.0_100cm_100mm.jpg" alt="Selfie at 4.0× zoom from 100 cm away" width="1200" height="1600"><span class="flip-hint">↻ ALTER EGO</span></button><figcaption><div><strong>4.0×</strong><span>100 mm</span></div><p>100 cm away</p></figcaption></figure>
+</div><div class="distance-axis"><span>CLOSER / WIDER</span><i></i><span>FARTHER / TIGHTER</span></div>
+<div class="explanation"><h3>It is about distance.</h3><div><p>At 10 cm, my nose is much closer to the camera than my ears. This difference makes the centre of my face look disproportionately large. At 100 cm, the same depth difference is a smaller fraction of the camera-to-face distance, so my facial proportions appear more natural.</p><p>Moving the camera changes perspective; increasing the focal length restores the framing. Zooming alone from the same position would crop the view without changing those perspective relationships.</p><p class="fine-print">Distances and focal-length labels follow the filenames. Face size and pose are approximate. The alter egos are a playful extra, separate from the photographic comparison.</p></div></div>
+</section>
+<section class="architecture-band" id="architecture" aria-labelledby="architecture-title"><div class="shell study">
+<div class="section-heading"><span class="number">02</span><div><div class="eyebrow">ARCHITECTURAL PERSPECTIVE COMPRESSION</div><h2 id="architecture-title">A street, pulled together.</h2></div></div><p class="intro">A sequence along the same sidewalk, reducing the zoom as the viewpoint moves forward. Watch the spacing between the trees, lamp posts, and distant buildings.</p>
+<div class="architecture-grid">
+<figure><a href="assets/img_8609.jpg" target="_blank" rel="noopener" aria-label="Open full IMG 8609 photo"><img src="assets/img_8609.jpg" alt="Street at 206 mm equivalent, with trees and lamp posts appearing closely spaced" width="1200" height="1600" loading="lazy"></a><figcaption><strong>206 mm <span>01</span></strong><p>IMG_8609 · Longest focal length</p></figcaption></figure>
+<figure><a href="assets/img_8610.jpg" target="_blank" rel="noopener" aria-label="Open full IMG 8610 photo"><img src="assets/img_8610.jpg" alt="Street at 160 mm equivalent, showing a line of trees along the sidewalk" width="1200" height="1600" loading="lazy"></a><figcaption><strong>160 mm <span>02</span></strong><p>IMG_8610 · Moving forward</p></figcaption></figure>
+<figure><a href="assets/img_8613.jpg" target="_blank" rel="noopener" aria-label="Open full IMG 8613 photo"><img src="assets/img_8613.jpg" alt="Street at 97 mm equivalent, with a more prominent foreground tree" width="1200" height="1600" loading="lazy"></a><figcaption><strong>97 mm <span>03</span></strong><p>IMG_8613 · Moving forward</p></figcaption></figure>
+<figure><a href="assets/img_8615.jpg" target="_blank" rel="noopener" aria-label="Open full IMG 8615 photo"><img src="assets/img_8615.jpg" alt="Wide 24 mm equivalent view with the sidewalk receding strongly into the distance" width="1200" height="1600" loading="lazy"></a><figcaption><strong>24 mm <span>04</span></strong><p>IMG_8615 · Widest view</p></figcaption></figure>
+</div><div class="explanation"><h3>Why does the street<br>look compressed?</h3><div><p>In the distant, zoomed-in view, objects at different depths have more similar distances from the camera. Their relative sizes differ less, making the trees and lamp posts appear stacked together. In the closer, wider view, the foreground becomes more prominent and the sidewalk recedes more strongly.</p><p>The camera position creates this change in perspective. The focal length controls how much of the scene fits in the frame. These handheld views illustrate the trend, although the framing is not exactly matched.</p><p class="fine-print">Focal lengths are 35 mm equivalents read from the original photos’ EXIF metadata. Select any photo to view it larger.</p></div></div>
+</div></section>
+<section class="study shell" id="dolly" aria-labelledby="dolly-title">
+<div class="section-heading"><span class="number">03</span><div><div class="eyebrow">THE DOLLY ZOOM</div><h2 id="dolly-title">Stay with the flower.<br>Watch the world move.</h2></div></div><p class="intro">Eleven photographs, taken from near to far while increasing the zoom. The flower stays roughly the same size as the background changes around it.</p>
+<div class="gallery-note"><b>THE COMPLETE SEQUENCE</b><span>IMG_8595 → IMG_8605 / Near → Far</span></div>
+<div class="contact-strip" aria-label="All eleven dolly zoom frames">
+<button data-frame="0" aria-label="Show frame 1, IMG 8595" aria-pressed="true"><img src="assets/img_8595.jpg" alt="Dolly zoom frame 1" loading="lazy"><span>01</span></button>
+<button data-frame="1" aria-label="Show frame 2, IMG 8596" aria-pressed="false"><img src="assets/img_8596.jpg" alt="Dolly zoom frame 2" loading="lazy"><span>02</span></button>
+<button data-frame="2" aria-label="Show frame 3, IMG 8597" aria-pressed="false"><img src="assets/img_8597.jpg" alt="Dolly zoom frame 3" loading="lazy"><span>03</span></button>
+<button data-frame="3" aria-label="Show frame 4, IMG 8598" aria-pressed="false"><img src="assets/img_8598.jpg" alt="Dolly zoom frame 4" loading="lazy"><span>04</span></button>
+<button data-frame="4" aria-label="Show frame 5, IMG 8599" aria-pressed="false"><img src="assets/img_8599.jpg" alt="Dolly zoom frame 5" loading="lazy"><span>05</span></button>
+<button data-frame="5" aria-label="Show frame 6, IMG 8600" aria-pressed="false"><img src="assets/img_8600.jpg" alt="Dolly zoom frame 6" loading="lazy"><span>06</span></button>
+<button data-frame="6" aria-label="Show frame 7, IMG 8601" aria-pressed="false"><img src="assets/img_8601.jpg" alt="Dolly zoom frame 7" loading="lazy"><span>07</span></button>
+<button data-frame="7" aria-label="Show frame 8, IMG 8602" aria-pressed="false"><img src="assets/img_8602.jpg" alt="Dolly zoom frame 8" loading="lazy"><span>08</span></button>
+<button data-frame="8" aria-label="Show frame 9, IMG 8603" aria-pressed="false"><img src="assets/img_8603.jpg" alt="Dolly zoom frame 9" loading="lazy"><span>09</span></button>
+<button data-frame="9" aria-label="Show frame 10, IMG 8604" aria-pressed="false"><img src="assets/img_8604.jpg" alt="Dolly zoom frame 10" loading="lazy"><span>10</span></button>
+<button data-frame="10" aria-label="Show frame 11, IMG 8605" aria-pressed="false"><img src="assets/img_8605.jpg" alt="Dolly zoom frame 11" loading="lazy"><span>11</span></button>
+</div>
+<div class="viewer-grid">
+<article class="viewer-panel"><div class="panel-heading"><h3>The motion study</h3><span><span class="screen-label">ANIMATED GIF</span><span class="print-label">FRAME 01 · NEAR</span></span></div><div class="image-stage"><img id="gif-view" src="assets/dolly-zoom.gif" alt="Animated dolly zoom of a pale purple flower, cycling from near to far and back" width="480" height="640" loading="lazy"></div><div class="panel-controls"><button id="gif-toggle" class="text-button" aria-pressed="true">Pause animation</button><a class="text-link" href="assets/dolly-zoom.gif" download>Download GIF ↗</a></div><p class="panel-note">Near → far → near. A continuous, reversing loop.</p></article>
+<article class="viewer-panel"><div class="panel-heading"><h3>Your perspective</h3><span><span class="screen-label">FRAME BY FRAME</span><span class="print-label">FRAME 11 · FAR</span></span></div><div class="image-stage"><img id="frame-view" src="assets/img_8595.jpg" alt="Dolly zoom frame 1 of 11, IMG_8595, nearest camera position" width="1200" height="1600" loading="lazy"><span id="frame-badge" class="frame-badge">01 / 11</span></div><div class="scrubber"><div class="scrubber-heading"><label for="frame-slider">Move through the sequence</label><output id="frame-name" for="frame-slider">IMG_8595</output></div><input id="frame-slider" type="range" min="0" max="10" step="1" value="0" aria-valuetext="Frame 1 of 11, IMG_8595"><div class="range-labels"><span>NEAR</span><span>FAR</span></div><div class="playback"><button id="previous-frame" class="square-button" aria-label="Previous frame">←</button><button id="play-sequence" class="play-button" aria-pressed="false">Play sequence</button><button id="next-frame" class="square-button" aria-label="Next frame">→</button></div></div><p class="panel-note">Drag the slider, use the arrow keys, or choose a thumbnail.</p></article>
+</div><noscript><p>Enable JavaScript for portrait toggles and the frame slider. All photographs and the animated GIF remain visible.</p></noscript>
+<div class="explanation"><h3>One subject.<br>Two opposing changes.</h3><div><p>Stepping back makes the flower smaller in the image; zooming in makes it larger. When these changes approximately cancel, the flower holds its size while the background’s scale and its relationship to the flower change. This is the principle behind the “Vertigo” effect.</p><p>The sequence uses IMG_8595 through IMG_8605 in ascending order. These handheld stills include small shifts in flower size, position, and focus, particularly at the beginning. The GIF preserves those variations rather than artificially aligning the images.</p></div></div>
+</section>
+<aside class="takeaway"><div class="shell"><span class="eyebrow">THE TAKEAWAY</span><p>Change your position.<br>Change your perspective.</p><span>Distance shapes perspective. Focal length shapes framing.</span></div></aside>
+</main>
+<footer class="shell footer"><div><strong>Ke Yang</strong><span>SYDE 671 · Assignment 1 · Part One</span></div><div class="footer-actions"><button class="text-button" id="print-page">Print / Save PDF ↗</button><a href="#top">Back to top ↑</a></div><p>Student photography project · Visual style inspired by the <a href="https://uwaterloo.ca/">University of Waterloo</a>. Portrait alter egos are supplied reference images.</p></footer>
+</body></html>
