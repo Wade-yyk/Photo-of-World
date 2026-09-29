@@ -18,6 +18,29 @@
   .print-label{display:inline!important}
   .screen-label{display:none!important}
 }
+
+/* Make the Part Two handoff visible in both the sticky navigation and the page flow. */
+.part-two-nav{display:flex;align-items:center;gap:9px;background:var(--ink);color:white;padding:10px 13px;text-decoration:none;line-height:1;white-space:nowrap;transition:background .2s,transform .2s}
+.part-two-nav span{font-size:9px;letter-spacing:1.2px;color:var(--gold)}
+.part-two-nav strong{font-size:11px}
+.part-two-nav:hover,.part-two-nav:focus-visible{background:#3b3b3b;transform:translateY(-1px)}
+.part-two-banner{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:0;margin-bottom:58px;padding:28px 32px;background:var(--ink);color:white;text-decoration:none;transition:background .2s,transform .2s}
+.part-two-banner:hover,.part-two-banner:focus-visible{background:#30302e;transform:translateY(-2px)}
+.part-two-banner .eyebrow{color:var(--gold)}
+.part-two-banner .eyebrow i{background:var(--gold)}
+.part-two-banner h2{margin-top:8px;color:white;font-size:clamp(25px,3vw,39px)}
+.part-two-banner-action{border:1px solid var(--gold);color:var(--gold);padding:13px 15px;font-size:11px;font-weight:bold;white-space:nowrap}
+.part-two-banner-action b{font-size:18px;margin-left:12px}
+.part-two-footer{font-weight:bold;background:var(--gold);padding:11px 13px;text-decoration:none}
+.part-two-footer:hover,.part-two-footer:focus-visible{background:var(--ink);color:white}
+
+@media(max-width:700px){
+  .part-two-nav{display:flex;margin:10px 0 0;justify-content:space-between;padding:11px 12px}
+  .part-two-banner{display:block;margin-bottom:36px;padding:23px 20px}
+  .part-two-banner h2{font-size:29px;letter-spacing:-1px}
+  .part-two-banner-action{display:inline-block;margin-top:18px}
+  .part-two-footer{display:inline-block}
+}
 .print-label{display:none}
 
 @media print{
