@@ -31018,6 +31018,2810 @@
           ]
         }
       }
+    },
+    {
+      "id": "service-pnp-prok-00800-00811v",
+      "gradient": {
+        "green": [
+          -1,
+          7
+        ],
+        "red": [
+          -3,
+          15
+        ],
+        "seconds": 0.068,
+        "green_trace": [
+          {
+            "level": 2,
+            "offset": [
+              0,
+              2
+            ],
+            "ncc": 0.9310261965496353
+          },
+          {
+            "level": 1,
+            "offset": [
+              -1,
+              3
+            ],
+            "ncc": 0.9038250511435197
+          },
+          {
+            "level": 0,
+            "offset": [
+              -1,
+              7
+            ],
+            "ncc": 0.86074134844654
+          }
+        ],
+        "red_trace": [
+          {
+            "level": 2,
+            "offset": [
+              -1,
+              4
+            ],
+            "ncc": 0.8846098073974366
+          },
+          {
+            "level": 1,
+            "offset": [
+              -2,
+              7
+            ],
+            "ncc": 0.8365761482375765
+          },
+          {
+            "level": 0,
+            "offset": [
+              -3,
+              15
+            ],
+            "ncc": 0.7914850091702189
+          }
+        ],
+        "bounds": [
+          0,
+          15,
+          392,
+          341
+        ]
+      },
+      "variants": {
+        "0": {
+          "file": "features/00.jpg",
+          "reference": "features/reference-0.jpg",
+          "preview_size": [
+            392,
+            326
+          ],
+          "source_area_size": [
+            392,
+            326
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ]
+        },
+        "8": {
+          "file": "features/08.jpg",
+          "reference": "features/reference-0.jpg",
+          "preview_size": [
+            392,
+            326
+          ],
+          "source_area_size": [
+            392,
+            326
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.05882352963089943,
+            0.9764705896377563
+          ]
+        },
+        "4": {
+          "file": "features/04.jpg",
+          "reference": "features/reference-0.jpg",
+          "preview_size": [
+            392,
+            326
+          ],
+          "source_area_size": [
+            392,
+            326
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            0.8373951492200379,
+            0.8886112296240922,
+            1.0493827129605886
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ]
+        },
+        "12": {
+          "file": "features/12.jpg",
+          "reference": "features/reference-0.jpg",
+          "preview_size": [
+            392,
+            326
+          ],
+          "source_area_size": [
+            392,
+            326
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            0.8373951492200379,
+            0.8886112296240922,
+            1.0493827129605886
+          ],
+          "levels": [
+            0.06172839510999081,
+            0.9917695478399019
+          ]
+        },
+        "2": {
+          "file": "features/02.jpg",
+          "reference": "features/reference-2.jpg",
+          "preview_size": [
+            353,
+            299
+          ],
+          "source_area_size": [
+            353,
+            299
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ]
+        },
+        "10": {
+          "file": "features/10.jpg",
+          "reference": "features/reference-2.jpg",
+          "preview_size": [
+            353,
+            299
+          ],
+          "source_area_size": [
+            353,
+            299
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.05882352963089943,
+            0.9764705896377563
+          ]
+        },
+        "6": {
+          "file": "features/06.jpg",
+          "reference": "features/reference-2.jpg",
+          "preview_size": [
+            353,
+            299
+          ],
+          "source_area_size": [
+            353,
+            299
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            0.8373951492200379,
+            0.8886112296240922,
+            1.0493827129605886
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ]
+        },
+        "14": {
+          "file": "features/14.jpg",
+          "reference": "features/reference-2.jpg",
+          "preview_size": [
+            353,
+            299
+          ],
+          "source_area_size": [
+            353,
+            299
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            0.8373951492200379,
+            0.8886112296240922,
+            1.0493827129605886
+          ],
+          "levels": [
+            0.06172839510999081,
+            0.9917695478399019
+          ]
+        },
+        "1": {
+          "file": "features/01.jpg",
+          "reference": "features/reference-1.jpg",
+          "preview_size": [
+            392,
+            326
+          ],
+          "source_area_size": [
+            392,
+            326
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ]
+        },
+        "9": {
+          "file": "features/09.jpg",
+          "reference": "features/reference-1.jpg",
+          "preview_size": [
+            392,
+            326
+          ],
+          "source_area_size": [
+            392,
+            326
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.06666667014360428,
+            0.9686274528503418
+          ]
+        },
+        "5": {
+          "file": "features/05.jpg",
+          "reference": "features/reference-1.jpg",
+          "preview_size": [
+            392,
+            326
+          ],
+          "source_area_size": [
+            392,
+            326
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            0.8417871723984004,
+            0.8938454867413733,
+            1.0537190048905576
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ]
+        },
+        "13": {
+          "file": "features/13.jpg",
+          "reference": "features/reference-1.jpg",
+          "preview_size": [
+            392,
+            326
+          ],
+          "source_area_size": [
+            392,
+            326
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            0.8417871723984004,
+            0.8938454867413733,
+            1.0537190048905576
+          ],
+          "levels": [
+            0.07024793732308575,
+            0.9958677688545725
+          ]
+        },
+        "3": {
+          "file": "features/03.jpg",
+          "reference": "features/reference-3.jpg",
+          "preview_size": [
+            353,
+            299
+          ],
+          "source_area_size": [
+            353,
+            299
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ]
+        },
+        "11": {
+          "file": "features/11.jpg",
+          "reference": "features/reference-3.jpg",
+          "preview_size": [
+            353,
+            299
+          ],
+          "source_area_size": [
+            353,
+            299
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.06666667014360428,
+            0.9686274528503418
+          ]
+        },
+        "7": {
+          "file": "features/07.jpg",
+          "reference": "features/reference-3.jpg",
+          "preview_size": [
+            353,
+            299
+          ],
+          "source_area_size": [
+            353,
+            299
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            0.8417871723984004,
+            0.8938454867413733,
+            1.0537190048905576
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ]
+        },
+        "15": {
+          "file": "features/15.jpg",
+          "reference": "features/reference-3.jpg",
+          "preview_size": [
+            353,
+            299
+          ],
+          "source_area_size": [
+            353,
+            299
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            0.8417871723984004,
+            0.8938454867413733,
+            1.0537190048905576
+          ],
+          "levels": [
+            0.07024793732308575,
+            0.9958677688545725
+          ]
+        },
+        "16": {
+          "file": "features/16.jpg",
+          "reference": "features/reference-0.jpg",
+          "preview_size": [
+            392,
+            326
+          ],
+          "source_area_size": [
+            392,
+            326
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "17": {
+          "file": "features/17.jpg",
+          "reference": "features/reference-1.jpg",
+          "preview_size": [
+            392,
+            326
+          ],
+          "source_area_size": [
+            392,
+            326
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "18": {
+          "file": "features/18.jpg",
+          "reference": "features/reference-2.jpg",
+          "preview_size": [
+            353,
+            299
+          ],
+          "source_area_size": [
+            353,
+            299
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "19": {
+          "file": "features/19.jpg",
+          "reference": "features/reference-3.jpg",
+          "preview_size": [
+            353,
+            299
+          ],
+          "source_area_size": [
+            353,
+            299
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "20": {
+          "file": "features/20.jpg",
+          "reference": "features/reference-0.jpg",
+          "preview_size": [
+            392,
+            326
+          ],
+          "source_area_size": [
+            392,
+            326
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            0.8373951492200379,
+            0.8886112296240922,
+            1.0493827129605886
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "21": {
+          "file": "features/21.jpg",
+          "reference": "features/reference-1.jpg",
+          "preview_size": [
+            392,
+            326
+          ],
+          "source_area_size": [
+            392,
+            326
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            0.8417871723984004,
+            0.8938454867413733,
+            1.0537190048905576
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "22": {
+          "file": "features/22.jpg",
+          "reference": "features/reference-2.jpg",
+          "preview_size": [
+            353,
+            299
+          ],
+          "source_area_size": [
+            353,
+            299
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            0.8373951492200379,
+            0.8886112296240922,
+            1.0493827129605886
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "23": {
+          "file": "features/23.jpg",
+          "reference": "features/reference-3.jpg",
+          "preview_size": [
+            353,
+            299
+          ],
+          "source_area_size": [
+            353,
+            299
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            0.8417871723984004,
+            0.8938454867413733,
+            1.0537190048905576
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "24": {
+          "file": "features/24.jpg",
+          "reference": "features/reference-0.jpg",
+          "preview_size": [
+            392,
+            326
+          ],
+          "source_area_size": [
+            392,
+            326
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.05882352963089943,
+            0.9764705896377563
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "25": {
+          "file": "features/25.jpg",
+          "reference": "features/reference-1.jpg",
+          "preview_size": [
+            392,
+            326
+          ],
+          "source_area_size": [
+            392,
+            326
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.06666667014360428,
+            0.9686274528503418
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "26": {
+          "file": "features/26.jpg",
+          "reference": "features/reference-2.jpg",
+          "preview_size": [
+            353,
+            299
+          ],
+          "source_area_size": [
+            353,
+            299
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.05882352963089943,
+            0.9764705896377563
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "27": {
+          "file": "features/27.jpg",
+          "reference": "features/reference-3.jpg",
+          "preview_size": [
+            353,
+            299
+          ],
+          "source_area_size": [
+            353,
+            299
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.06666667014360428,
+            0.9686274528503418
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "28": {
+          "file": "features/28.jpg",
+          "reference": "features/reference-0.jpg",
+          "preview_size": [
+            392,
+            326
+          ],
+          "source_area_size": [
+            392,
+            326
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            0.8373951492200379,
+            0.8886112296240922,
+            1.0493827129605886
+          ],
+          "levels": [
+            0.06172839510999081,
+            0.9917695478399019
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "29": {
+          "file": "features/29.jpg",
+          "reference": "features/reference-1.jpg",
+          "preview_size": [
+            392,
+            326
+          ],
+          "source_area_size": [
+            392,
+            326
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            0.8417871723984004,
+            0.8938454867413733,
+            1.0537190048905576
+          ],
+          "levels": [
+            0.07024793732308575,
+            0.9958677688545725
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "30": {
+          "file": "features/30.jpg",
+          "reference": "features/reference-2.jpg",
+          "preview_size": [
+            353,
+            299
+          ],
+          "source_area_size": [
+            353,
+            299
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            0.8373951492200379,
+            0.8886112296240922,
+            1.0493827129605886
+          ],
+          "levels": [
+            0.06172839510999081,
+            0.9917695478399019
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "31": {
+          "file": "features/31.jpg",
+          "reference": "features/reference-3.jpg",
+          "preview_size": [
+            353,
+            299
+          ],
+          "source_area_size": [
+            353,
+            299
+          ],
+          "detected_crop": [
+            28,
+            0,
+            381,
+            299
+          ],
+          "alignment_canvas": [
+            0,
+            15,
+            392,
+            341
+          ],
+          "gains": [
+            0.8417871723984004,
+            0.8938454867413733,
+            1.0537190048905576
+          ],
+          "levels": [
+            0.07024793732308575,
+            0.9958677688545725
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "service-pnp-prok-00900-00983v",
+      "gradient": {
+        "green": [
+          0,
+          1
+        ],
+        "red": [
+          -1,
+          6
+        ],
+        "seconds": 0.072,
+        "green_trace": [
+          {
+            "level": 2,
+            "offset": [
+              0,
+              0
+            ],
+            "ncc": 0.9242251946459125
+          },
+          {
+            "level": 1,
+            "offset": [
+              0,
+              0
+            ],
+            "ncc": 0.8706650479280448
+          },
+          {
+            "level": 0,
+            "offset": [
+              0,
+              1
+            ],
+            "ncc": 0.7223970220058991
+          }
+        ],
+        "red_trace": [
+          {
+            "level": 2,
+            "offset": [
+              0,
+              2
+            ],
+            "ncc": 0.678927975865255
+          },
+          {
+            "level": 1,
+            "offset": [
+              -1,
+              3
+            ],
+            "ncc": 0.5927363008455818
+          },
+          {
+            "level": 0,
+            "offset": [
+              -1,
+              6
+            ],
+            "ncc": 0.5495531450894613
+          }
+        ],
+        "bounds": [
+          0,
+          6,
+          401,
+          341
+        ]
+      },
+      "variants": {
+        "0": {
+          "file": "features/00.jpg",
+          "reference": "features/reference-0.jpg",
+          "preview_size": [
+            401,
+            335
+          ],
+          "source_area_size": [
+            401,
+            335
+          ],
+          "detected_crop": [
+            28,
+            11,
+            379,
+            325
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ]
+        },
+        "8": {
+          "file": "features/08.jpg",
+          "reference": "features/reference-0.jpg",
+          "preview_size": [
+            401,
+            335
+          ],
+          "source_area_size": [
+            401,
+            335
+          ],
+          "detected_crop": [
+            28,
+            11,
+            379,
+            325
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.14901961386203766,
+            0.9647058844566345
+          ]
+        },
+        "4": {
+          "file": "features/04.jpg",
+          "reference": "features/reference-0.jpg",
+          "preview_size": [
+            401,
+            335
+          ],
+          "source_area_size": [
+            401,
+            335
+          ],
+          "detected_crop": [
+            28,
+            11,
+            379,
+            325
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            0.8966161379846265,
+            1.0991397263130676,
+            1.0257535118981764
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ]
+        },
+        "12": {
+          "file": "features/12.jpg",
+          "reference": "features/reference-0.jpg",
+          "preview_size": [
+            401,
+            335
+          ],
+          "source_area_size": [
+            401,
+            335
+          ],
+          "detected_crop": [
+            28,
+            11,
+            379,
+            325
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            0.8966161379846265,
+            1.0991397263130676,
+            1.0257535118981764
+          ],
+          "levels": [
+            0.1551726743736443,
+            0.9568981231508137
+          ]
+        },
+        "2": {
+          "file": "features/02.jpg",
+          "reference": "features/reference-2.jpg",
+          "preview_size": [
+            351,
+            314
+          ],
+          "source_area_size": [
+            351,
+            314
+          ],
+          "detected_crop": [
+            28,
+            11,
+            379,
+            325
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ]
+        },
+        "10": {
+          "file": "features/10.jpg",
+          "reference": "features/reference-2.jpg",
+          "preview_size": [
+            351,
+            314
+          ],
+          "source_area_size": [
+            351,
+            314
+          ],
+          "detected_crop": [
+            28,
+            11,
+            379,
+            325
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.14901961386203766,
+            0.9647058844566345
+          ]
+        },
+        "6": {
+          "file": "features/06.jpg",
+          "reference": "features/reference-2.jpg",
+          "preview_size": [
+            351,
+            314
+          ],
+          "source_area_size": [
+            351,
+            314
+          ],
+          "detected_crop": [
+            28,
+            11,
+            379,
+            325
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            0.8966161379846265,
+            1.0991397263130676,
+            1.0257535118981764
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ]
+        },
+        "14": {
+          "file": "features/14.jpg",
+          "reference": "features/reference-2.jpg",
+          "preview_size": [
+            351,
+            314
+          ],
+          "source_area_size": [
+            351,
+            314
+          ],
+          "detected_crop": [
+            28,
+            11,
+            379,
+            325
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            0.8966161379846265,
+            1.0991397263130676,
+            1.0257535118981764
+          ],
+          "levels": [
+            0.1551726743736443,
+            0.9568981231508137
+          ]
+        },
+        "1": {
+          "file": "features/01.jpg",
+          "reference": "features/reference-1.jpg",
+          "preview_size": [
+            401,
+            335
+          ],
+          "source_area_size": [
+            401,
+            335
+          ],
+          "detected_crop": [
+            25,
+            11,
+            379,
+            326
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ]
+        },
+        "9": {
+          "file": "features/09.jpg",
+          "reference": "features/reference-1.jpg",
+          "preview_size": [
+            401,
+            335
+          ],
+          "source_area_size": [
+            401,
+            335
+          ],
+          "detected_crop": [
+            25,
+            11,
+            379,
+            326
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.1411764770746231,
+            0.95686274766922
+          ]
+        },
+        "5": {
+          "file": "features/05.jpg",
+          "reference": "features/reference-1.jpg",
+          "preview_size": [
+            401,
+            335
+          ],
+          "source_area_size": [
+            401,
+            335
+          ],
+          "detected_crop": [
+            25,
+            11,
+            379,
+            326
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            0.8962674501095508,
+            1.0993284443326512,
+            1.0260458041967373
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ]
+        },
+        "13": {
+          "file": "features/13.jpg",
+          "reference": "features/reference-1.jpg",
+          "preview_size": [
+            401,
+            335
+          ],
+          "source_area_size": [
+            401,
+            335
+          ],
+          "detected_crop": [
+            25,
+            11,
+            379,
+            326
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            0.8962674501095508,
+            1.0993284443326512,
+            1.0260458041967373
+          ],
+          "levels": [
+            0.1448535319536939,
+            0.9570624188399068
+          ]
+        },
+        "3": {
+          "file": "features/03.jpg",
+          "reference": "features/reference-3.jpg",
+          "preview_size": [
+            354,
+            315
+          ],
+          "source_area_size": [
+            354,
+            315
+          ],
+          "detected_crop": [
+            25,
+            11,
+            379,
+            326
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ]
+        },
+        "11": {
+          "file": "features/11.jpg",
+          "reference": "features/reference-3.jpg",
+          "preview_size": [
+            354,
+            315
+          ],
+          "source_area_size": [
+            354,
+            315
+          ],
+          "detected_crop": [
+            25,
+            11,
+            379,
+            326
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.1411764770746231,
+            0.95686274766922
+          ]
+        },
+        "7": {
+          "file": "features/07.jpg",
+          "reference": "features/reference-3.jpg",
+          "preview_size": [
+            354,
+            315
+          ],
+          "source_area_size": [
+            354,
+            315
+          ],
+          "detected_crop": [
+            25,
+            11,
+            379,
+            326
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            0.8962674501095508,
+            1.0993284443326512,
+            1.0260458041967373
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ]
+        },
+        "15": {
+          "file": "features/15.jpg",
+          "reference": "features/reference-3.jpg",
+          "preview_size": [
+            354,
+            315
+          ],
+          "source_area_size": [
+            354,
+            315
+          ],
+          "detected_crop": [
+            25,
+            11,
+            379,
+            326
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            0.8962674501095508,
+            1.0993284443326512,
+            1.0260458041967373
+          ],
+          "levels": [
+            0.1448535319536939,
+            0.9570624188399068
+          ]
+        },
+        "16": {
+          "file": "features/16.jpg",
+          "reference": "features/reference-0.jpg",
+          "preview_size": [
+            401,
+            335
+          ],
+          "source_area_size": [
+            401,
+            335
+          ],
+          "detected_crop": [
+            28,
+            11,
+            379,
+            325
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "17": {
+          "file": "features/17.jpg",
+          "reference": "features/reference-1.jpg",
+          "preview_size": [
+            401,
+            335
+          ],
+          "source_area_size": [
+            401,
+            335
+          ],
+          "detected_crop": [
+            25,
+            11,
+            379,
+            326
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "18": {
+          "file": "features/18.jpg",
+          "reference": "features/reference-2.jpg",
+          "preview_size": [
+            351,
+            314
+          ],
+          "source_area_size": [
+            351,
+            314
+          ],
+          "detected_crop": [
+            28,
+            11,
+            379,
+            325
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "19": {
+          "file": "features/19.jpg",
+          "reference": "features/reference-3.jpg",
+          "preview_size": [
+            354,
+            315
+          ],
+          "source_area_size": [
+            354,
+            315
+          ],
+          "detected_crop": [
+            25,
+            11,
+            379,
+            326
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "20": {
+          "file": "features/20.jpg",
+          "reference": "features/reference-0.jpg",
+          "preview_size": [
+            401,
+            335
+          ],
+          "source_area_size": [
+            401,
+            335
+          ],
+          "detected_crop": [
+            28,
+            11,
+            379,
+            325
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            0.8966161379846265,
+            1.0991397263130676,
+            1.0257535118981764
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "21": {
+          "file": "features/21.jpg",
+          "reference": "features/reference-1.jpg",
+          "preview_size": [
+            401,
+            335
+          ],
+          "source_area_size": [
+            401,
+            335
+          ],
+          "detected_crop": [
+            25,
+            11,
+            379,
+            326
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            0.8962674501095508,
+            1.0993284443326512,
+            1.0260458041967373
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "22": {
+          "file": "features/22.jpg",
+          "reference": "features/reference-2.jpg",
+          "preview_size": [
+            351,
+            314
+          ],
+          "source_area_size": [
+            351,
+            314
+          ],
+          "detected_crop": [
+            28,
+            11,
+            379,
+            325
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            0.8966161379846265,
+            1.0991397263130676,
+            1.0257535118981764
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "23": {
+          "file": "features/23.jpg",
+          "reference": "features/reference-3.jpg",
+          "preview_size": [
+            354,
+            315
+          ],
+          "source_area_size": [
+            354,
+            315
+          ],
+          "detected_crop": [
+            25,
+            11,
+            379,
+            326
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            0.8962674501095508,
+            1.0993284443326512,
+            1.0260458041967373
+          ],
+          "levels": [
+            0.0,
+            1.0
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "24": {
+          "file": "features/24.jpg",
+          "reference": "features/reference-0.jpg",
+          "preview_size": [
+            401,
+            335
+          ],
+          "source_area_size": [
+            401,
+            335
+          ],
+          "detected_crop": [
+            28,
+            11,
+            379,
+            325
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.14901961386203766,
+            0.9647058844566345
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "25": {
+          "file": "features/25.jpg",
+          "reference": "features/reference-1.jpg",
+          "preview_size": [
+            401,
+            335
+          ],
+          "source_area_size": [
+            401,
+            335
+          ],
+          "detected_crop": [
+            25,
+            11,
+            379,
+            326
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.1411764770746231,
+            0.95686274766922
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "26": {
+          "file": "features/26.jpg",
+          "reference": "features/reference-2.jpg",
+          "preview_size": [
+            351,
+            314
+          ],
+          "source_area_size": [
+            351,
+            314
+          ],
+          "detected_crop": [
+            28,
+            11,
+            379,
+            325
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.14901961386203766,
+            0.9647058844566345
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "27": {
+          "file": "features/27.jpg",
+          "reference": "features/reference-3.jpg",
+          "preview_size": [
+            354,
+            315
+          ],
+          "source_area_size": [
+            354,
+            315
+          ],
+          "detected_crop": [
+            25,
+            11,
+            379,
+            326
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "levels": [
+            0.1411764770746231,
+            0.95686274766922
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "28": {
+          "file": "features/28.jpg",
+          "reference": "features/reference-0.jpg",
+          "preview_size": [
+            401,
+            335
+          ],
+          "source_area_size": [
+            401,
+            335
+          ],
+          "detected_crop": [
+            28,
+            11,
+            379,
+            325
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            0.8966161379846265,
+            1.0991397263130676,
+            1.0257535118981764
+          ],
+          "levels": [
+            0.1551726743736443,
+            0.9568981231508137
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "29": {
+          "file": "features/29.jpg",
+          "reference": "features/reference-1.jpg",
+          "preview_size": [
+            401,
+            335
+          ],
+          "source_area_size": [
+            401,
+            335
+          ],
+          "detected_crop": [
+            25,
+            11,
+            379,
+            326
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            0.8962674501095508,
+            1.0993284443326512,
+            1.0260458041967373
+          ],
+          "levels": [
+            0.1448535319536939,
+            0.9570624188399068
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "30": {
+          "file": "features/30.jpg",
+          "reference": "features/reference-2.jpg",
+          "preview_size": [
+            351,
+            314
+          ],
+          "source_area_size": [
+            351,
+            314
+          ],
+          "detected_crop": [
+            28,
+            11,
+            379,
+            325
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            0.8966161379846265,
+            1.0991397263130676,
+            1.0257535118981764
+          ],
+          "levels": [
+            0.1551726743736443,
+            0.9568981231508137
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        },
+        "31": {
+          "file": "features/31.jpg",
+          "reference": "features/reference-3.jpg",
+          "preview_size": [
+            354,
+            315
+          ],
+          "source_area_size": [
+            354,
+            315
+          ],
+          "detected_crop": [
+            25,
+            11,
+            379,
+            326
+          ],
+          "alignment_canvas": [
+            0,
+            6,
+            401,
+            341
+          ],
+          "gains": [
+            0.8962674501095508,
+            1.0993284443326512,
+            1.0260458041967373
+          ],
+          "levels": [
+            0.1448535319536939,
+            0.9570624188399068
+          ],
+          "colour_matrix": [
+            [
+              0.88189,
+              0.10727999999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.9572799999999999,
+              0.01083
+            ],
+            [
+              0.03189,
+              0.10727999999999999,
+              0.86083
+            ]
+          ]
+        }
+      }
     }
   ],
   "baseline_files_verified_unchanged": 222
