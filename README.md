@@ -32,4 +32,6 @@ Use the page's **Print / Save PDF** button to regenerate the PDF after editing. 
 
 This folder is ready for static hosting, including GitHub Pages. Keep `index.html` at the publishing root with `style.css`, `script.js`, and `assets/` beside it. All project asset references are relative, so a repository subpath works. The site is published at https://wade-yyk.github.io/Photo-of-World/.
 
-PART TWO (Prokudin-Gorskii image alignment) is outside this webpage's scope.
+## Part Two
+
+Open `part-two/index.html` for all 18 Prokudin-Gorskii reconstructions. The original NCC results are preserved. Each photo has independent optional controls for gradient alignment, detected border cropping, gray-world white balance, global contrast, and an experimental colour matrix. See `part-two/README.md` for the algorithms, limitations, and reproducible commands.

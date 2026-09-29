@@ -1,0 +1,3678 @@
+{
+  "parameters": {
+    "metric": "zero-mean NCC",
+    "border_fraction": 0.1,
+    "single_max_side": 400,
+    "single_radius": 15,
+    "coarse_max_side": 192,
+    "coarse_radius": 15,
+    "refine_radius": 2,
+    "pyramid_blur_sigma": 1.0
+  },
+  "images": [
+    {
+      "id": "00056v",
+      "source": "00056v.jpg",
+      "source_size": [
+        398,
+        1024
+      ],
+      "channel_size": [
+        398,
+        341
+      ],
+      "discarded_rows": 1,
+      "single_size": [
+        398,
+        341
+      ],
+      "single": {
+        "green": [
+          1,
+          5
+        ],
+        "red": [
+          1,
+          13
+        ],
+        "green_ncc": 0.630148,
+        "red_ncc": 0.47311,
+        "seconds": 0.46
+      },
+      "pyramid": {
+        "green": [
+          1,
+          5
+        ],
+        "red": [
+          1,
+          13
+        ],
+        "seconds": 0.059,
+        "green_trace": [
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 100,
+            "height": 86,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              1
+            ],
+            "radius": 15,
+            "ncc": 0.704058
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 199,
+            "height": 171,
+            "prediction": [
+              0,
+              2
+            ],
+            "offset": [
+              1,
+              3
+            ],
+            "radius": 2,
+            "ncc": 0.678358
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 398,
+            "height": 341,
+            "prediction": [
+              2,
+              6
+            ],
+            "offset": [
+              1,
+              5
+            ],
+            "radius": 2,
+            "ncc": 0.630148
+          }
+        ],
+        "red_trace": [
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 100,
+            "height": 86,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              3
+            ],
+            "radius": 15,
+            "ncc": 0.449
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 199,
+            "height": 171,
+            "prediction": [
+              0,
+              6
+            ],
+            "offset": [
+              0,
+              6
+            ],
+            "radius": 2,
+            "ncc": 0.472588
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 398,
+            "height": 341,
+            "prediction": [
+              0,
+              12
+            ],
+            "offset": [
+              1,
+              13
+            ],
+            "radius": 2,
+            "ncc": 0.47311
+          }
+        ]
+      },
+      "crop_bounds": [
+        1,
+        13,
+        398,
+        341
+      ],
+      "output_size": [
+        397,
+        328
+      ],
+      "total_seconds": 0.546
+    },
+    {
+      "id": "00125v",
+      "source": "00125v.jpg",
+      "source_size": [
+        400,
+        1024
+      ],
+      "channel_size": [
+        400,
+        341
+      ],
+      "discarded_rows": 1,
+      "single_size": [
+        400,
+        341
+      ],
+      "single": {
+        "green": [
+          2,
+          5
+        ],
+        "red": [
+          1,
+          10
+        ],
+        "green_ncc": 0.92129,
+        "red_ncc": 0.750983,
+        "seconds": 0.456
+      },
+      "pyramid": {
+        "green": [
+          2,
+          5
+        ],
+        "red": [
+          1,
+          10
+        ],
+        "seconds": 0.061,
+        "green_trace": [
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 100,
+            "height": 86,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              1,
+              1
+            ],
+            "radius": 15,
+            "ncc": 0.932858
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 200,
+            "height": 171,
+            "prediction": [
+              2,
+              2
+            ],
+            "offset": [
+              1,
+              3
+            ],
+            "radius": 2,
+            "ncc": 0.927716
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 400,
+            "height": 341,
+            "prediction": [
+              2,
+              6
+            ],
+            "offset": [
+              2,
+              5
+            ],
+            "radius": 2,
+            "ncc": 0.92129
+          }
+        ],
+        "red_trace": [
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 100,
+            "height": 86,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              2
+            ],
+            "radius": 15,
+            "ncc": 0.769012
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 200,
+            "height": 171,
+            "prediction": [
+              0,
+              4
+            ],
+            "offset": [
+              1,
+              5
+            ],
+            "radius": 2,
+            "ncc": 0.762903
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 400,
+            "height": 341,
+            "prediction": [
+              2,
+              10
+            ],
+            "offset": [
+              1,
+              10
+            ],
+            "radius": 2,
+            "ncc": 0.750983
+          }
+        ]
+      },
+      "crop_bounds": [
+        2,
+        10,
+        400,
+        341
+      ],
+      "output_size": [
+        398,
+        331
+      ],
+      "total_seconds": 0.539
+    },
+    {
+      "id": "00163v",
+      "source": "00163v.jpg",
+      "source_size": [
+        387,
+        1024
+      ],
+      "channel_size": [
+        387,
+        341
+      ],
+      "discarded_rows": 1,
+      "single_size": [
+        387,
+        341
+      ],
+      "single": {
+        "green": [
+          1,
+          -3
+        ],
+        "red": [
+          1,
+          -4
+        ],
+        "green_ncc": 0.94685,
+        "red_ncc": 0.9354,
+        "seconds": 0.45
+      },
+      "pyramid": {
+        "green": [
+          1,
+          -3
+        ],
+        "red": [
+          1,
+          -4
+        ],
+        "seconds": 0.059,
+        "green_trace": [
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 97,
+            "height": 86,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "radius": 15,
+            "ncc": 0.962845
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 194,
+            "height": 171,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              -1
+            ],
+            "radius": 2,
+            "ncc": 0.956709
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 387,
+            "height": 341,
+            "prediction": [
+              0,
+              -2
+            ],
+            "offset": [
+              1,
+              -3
+            ],
+            "radius": 2,
+            "ncc": 0.94685
+          }
+        ],
+        "red_trace": [
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 97,
+            "height": 86,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              -1
+            ],
+            "radius": 15,
+            "ncc": 0.955298
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 194,
+            "height": 171,
+            "prediction": [
+              0,
+              -2
+            ],
+            "offset": [
+              1,
+              -2
+            ],
+            "radius": 2,
+            "ncc": 0.948451
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 387,
+            "height": 341,
+            "prediction": [
+              2,
+              -4
+            ],
+            "offset": [
+              1,
+              -4
+            ],
+            "radius": 2,
+            "ncc": 0.9354
+          }
+        ]
+      },
+      "crop_bounds": [
+        1,
+        0,
+        387,
+        337
+      ],
+      "output_size": [
+        386,
+        337
+      ],
+      "total_seconds": 0.531
+    },
+    {
+      "id": "00458u",
+      "source": "00458u.jpg",
+      "source_size": [
+        3741,
+        9715
+      ],
+      "channel_size": [
+        3741,
+        3238
+      ],
+      "discarded_rows": 1,
+      "single_size": [
+        400,
+        346
+      ],
+      "single": {
+        "green": [
+          1,
+          5
+        ],
+        "red": [
+          3,
+          9
+        ],
+        "green_ncc": 0.939953,
+        "red_ncc": 0.895656,
+        "seconds": 0.466
+      },
+      "pyramid": {
+        "green": [
+          6,
+          43
+        ],
+        "red": [
+          32,
+          87
+        ],
+        "seconds": 1.965,
+        "green_trace": [
+          {
+            "level": 5,
+            "scale": 32,
+            "width": 117,
+            "height": 102,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              1
+            ],
+            "radius": 15,
+            "ncc": 0.960472
+          },
+          {
+            "level": 4,
+            "scale": 16,
+            "width": 234,
+            "height": 203,
+            "prediction": [
+              0,
+              2
+            ],
+            "offset": [
+              0,
+              3
+            ],
+            "radius": 2,
+            "ncc": 0.960427
+          },
+          {
+            "level": 3,
+            "scale": 8,
+            "width": 468,
+            "height": 405,
+            "prediction": [
+              0,
+              6
+            ],
+            "offset": [
+              1,
+              5
+            ],
+            "radius": 2,
+            "ncc": 0.952646
+          },
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 936,
+            "height": 810,
+            "prediction": [
+              2,
+              10
+            ],
+            "offset": [
+              1,
+              11
+            ],
+            "radius": 2,
+            "ncc": 0.941431
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 1871,
+            "height": 1619,
+            "prediction": [
+              2,
+              22
+            ],
+            "offset": [
+              3,
+              21
+            ],
+            "radius": 2,
+            "ncc": 0.928231
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 3741,
+            "height": 3238,
+            "prediction": [
+              6,
+              42
+            ],
+            "offset": [
+              6,
+              43
+            ],
+            "radius": 2,
+            "ncc": 0.91967
+          }
+        ],
+        "red_trace": [
+          {
+            "level": 5,
+            "scale": 32,
+            "width": 117,
+            "height": 102,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              1,
+              3
+            ],
+            "radius": 15,
+            "ncc": 0.922155
+          },
+          {
+            "level": 4,
+            "scale": 16,
+            "width": 234,
+            "height": 203,
+            "prediction": [
+              2,
+              6
+            ],
+            "offset": [
+              2,
+              6
+            ],
+            "radius": 2,
+            "ncc": 0.916351
+          },
+          {
+            "level": 3,
+            "scale": 8,
+            "width": 468,
+            "height": 405,
+            "prediction": [
+              4,
+              12
+            ],
+            "offset": [
+              4,
+              11
+            ],
+            "radius": 2,
+            "ncc": 0.912358
+          },
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 936,
+            "height": 810,
+            "prediction": [
+              8,
+              22
+            ],
+            "offset": [
+              8,
+              22
+            ],
+            "radius": 2,
+            "ncc": 0.903028
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 1871,
+            "height": 1619,
+            "prediction": [
+              16,
+              44
+            ],
+            "offset": [
+              16,
+              44
+            ],
+            "radius": 2,
+            "ncc": 0.892527
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 3741,
+            "height": 3238,
+            "prediction": [
+              32,
+              88
+            ],
+            "offset": [
+              32,
+              87
+            ],
+            "radius": 2,
+            "ncc": 0.886035
+          }
+        ]
+      },
+      "crop_bounds": [
+        32,
+        87,
+        3741,
+        3238
+      ],
+      "output_size": [
+        3709,
+        3151
+      ],
+      "total_seconds": 3.39
+    },
+    {
+      "id": "00804v",
+      "source": "00804v.jpg",
+      "source_size": [
+        396,
+        1024
+      ],
+      "channel_size": [
+        396,
+        341
+      ],
+      "discarded_rows": 1,
+      "single_size": [
+        396,
+        341
+      ],
+      "single": {
+        "green": [
+          -2,
+          6
+        ],
+        "red": [
+          -4,
+          13
+        ],
+        "green_ncc": 0.964943,
+        "red_ncc": 0.846022,
+        "seconds": 0.459
+      },
+      "pyramid": {
+        "green": [
+          -2,
+          6
+        ],
+        "red": [
+          -4,
+          13
+        ],
+        "seconds": 0.06,
+        "green_trace": [
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 99,
+            "height": 86,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              -1,
+              1
+            ],
+            "radius": 15,
+            "ncc": 0.976377
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 198,
+            "height": 171,
+            "prediction": [
+              -2,
+              2
+            ],
+            "offset": [
+              -1,
+              3
+            ],
+            "radius": 2,
+            "ncc": 0.976279
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 396,
+            "height": 341,
+            "prediction": [
+              -2,
+              6
+            ],
+            "offset": [
+              -2,
+              6
+            ],
+            "radius": 2,
+            "ncc": 0.964943
+          }
+        ],
+        "red_trace": [
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 99,
+            "height": 86,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              -2,
+              3
+            ],
+            "radius": 15,
+            "ncc": 0.847103
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 198,
+            "height": 171,
+            "prediction": [
+              -4,
+              6
+            ],
+            "offset": [
+              -2,
+              7
+            ],
+            "radius": 2,
+            "ncc": 0.847824
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 396,
+            "height": 341,
+            "prediction": [
+              -4,
+              14
+            ],
+            "offset": [
+              -4,
+              13
+            ],
+            "radius": 2,
+            "ncc": 0.846022
+          }
+        ]
+      },
+      "crop_bounds": [
+        0,
+        13,
+        392,
+        341
+      ],
+      "output_size": [
+        392,
+        328
+      ],
+      "total_seconds": 0.547
+    },
+    {
+      "id": "01007a",
+      "source": "01007a.jpg",
+      "source_size": [
+        3800,
+        9715
+      ],
+      "channel_size": [
+        3800,
+        3238
+      ],
+      "discarded_rows": 1,
+      "single_size": [
+        400,
+        341
+      ],
+      "single": {
+        "green": [
+          1,
+          6
+        ],
+        "red": [
+          1,
+          14
+        ],
+        "green_ncc": 0.93153,
+        "red_ncc": 0.709229,
+        "seconds": 0.461
+      },
+      "pyramid": {
+        "green": [
+          14,
+          60
+        ],
+        "red": [
+          13,
+          129
+        ],
+        "seconds": 1.977,
+        "green_trace": [
+          {
+            "level": 5,
+            "scale": 32,
+            "width": 119,
+            "height": 102,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              2
+            ],
+            "radius": 15,
+            "ncc": 0.953591
+          },
+          {
+            "level": 4,
+            "scale": 16,
+            "width": 238,
+            "height": 203,
+            "prediction": [
+              0,
+              4
+            ],
+            "offset": [
+              1,
+              4
+            ],
+            "radius": 2,
+            "ncc": 0.949875
+          },
+          {
+            "level": 3,
+            "scale": 8,
+            "width": 475,
+            "height": 405,
+            "prediction": [
+              2,
+              8
+            ],
+            "offset": [
+              2,
+              7
+            ],
+            "radius": 2,
+            "ncc": 0.941925
+          },
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 950,
+            "height": 810,
+            "prediction": [
+              4,
+              14
+            ],
+            "offset": [
+              3,
+              15
+            ],
+            "radius": 2,
+            "ncc": 0.938269
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 1900,
+            "height": 1619,
+            "prediction": [
+              6,
+              30
+            ],
+            "offset": [
+              7,
+              30
+            ],
+            "radius": 2,
+            "ncc": 0.930539
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 3800,
+            "height": 3238,
+            "prediction": [
+              14,
+              60
+            ],
+            "offset": [
+              14,
+              60
+            ],
+            "radius": 2,
+            "ncc": 0.923351
+          }
+        ],
+        "red_trace": [
+          {
+            "level": 5,
+            "scale": 32,
+            "width": 119,
+            "height": 102,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              4
+            ],
+            "radius": 15,
+            "ncc": 0.733902
+          },
+          {
+            "level": 4,
+            "scale": 16,
+            "width": 238,
+            "height": 203,
+            "prediction": [
+              0,
+              8
+            ],
+            "offset": [
+              1,
+              8
+            ],
+            "radius": 2,
+            "ncc": 0.733766
+          },
+          {
+            "level": 3,
+            "scale": 8,
+            "width": 475,
+            "height": 405,
+            "prediction": [
+              2,
+              16
+            ],
+            "offset": [
+              2,
+              16
+            ],
+            "radius": 2,
+            "ncc": 0.72819
+          },
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 950,
+            "height": 810,
+            "prediction": [
+              4,
+              32
+            ],
+            "offset": [
+              3,
+              32
+            ],
+            "radius": 2,
+            "ncc": 0.722653
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 1900,
+            "height": 1619,
+            "prediction": [
+              6,
+              64
+            ],
+            "offset": [
+              7,
+              65
+            ],
+            "radius": 2,
+            "ncc": 0.712866
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 3800,
+            "height": 3238,
+            "prediction": [
+              14,
+              130
+            ],
+            "offset": [
+              13,
+              129
+            ],
+            "radius": 2,
+            "ncc": 0.707733
+          }
+        ]
+      },
+      "crop_bounds": [
+        14,
+        129,
+        3800,
+        3238
+      ],
+      "output_size": [
+        3786,
+        3109
+      ],
+      "total_seconds": 3.411
+    },
+    {
+      "id": "01047u",
+      "source": "01047u.jpg",
+      "source_size": [
+        3741,
+        9656
+      ],
+      "channel_size": [
+        3741,
+        3218
+      ],
+      "discarded_rows": 2,
+      "single_size": [
+        400,
+        344
+      ],
+      "single": {
+        "green": [
+          2,
+          3
+        ],
+        "red": [
+          4,
+          8
+        ],
+        "green_ncc": 0.902036,
+        "red_ncc": 0.867549,
+        "seconds": 0.459
+      },
+      "pyramid": {
+        "green": [
+          20,
+          24
+        ],
+        "red": [
+          33,
+          71
+        ],
+        "seconds": 1.929,
+        "green_trace": [
+          {
+            "level": 5,
+            "scale": 32,
+            "width": 117,
+            "height": 101,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              1,
+              1
+            ],
+            "radius": 15,
+            "ncc": 0.926351
+          },
+          {
+            "level": 4,
+            "scale": 16,
+            "width": 234,
+            "height": 202,
+            "prediction": [
+              2,
+              2
+            ],
+            "offset": [
+              1,
+              2
+            ],
+            "radius": 2,
+            "ncc": 0.918652
+          },
+          {
+            "level": 3,
+            "scale": 8,
+            "width": 468,
+            "height": 403,
+            "prediction": [
+              2,
+              4
+            ],
+            "offset": [
+              3,
+              3
+            ],
+            "radius": 2,
+            "ncc": 0.920591
+          },
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 936,
+            "height": 805,
+            "prediction": [
+              6,
+              6
+            ],
+            "offset": [
+              5,
+              6
+            ],
+            "radius": 2,
+            "ncc": 0.910339
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 1871,
+            "height": 1609,
+            "prediction": [
+              10,
+              12
+            ],
+            "offset": [
+              10,
+              12
+            ],
+            "radius": 2,
+            "ncc": 0.890819
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 3741,
+            "height": 3218,
+            "prediction": [
+              20,
+              24
+            ],
+            "offset": [
+              20,
+              24
+            ],
+            "radius": 2,
+            "ncc": 0.875651
+          }
+        ],
+        "red_trace": [
+          {
+            "level": 5,
+            "scale": 32,
+            "width": 117,
+            "height": 101,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              1,
+              2
+            ],
+            "radius": 15,
+            "ncc": 0.90085
+          },
+          {
+            "level": 4,
+            "scale": 16,
+            "width": 234,
+            "height": 202,
+            "prediction": [
+              2,
+              4
+            ],
+            "offset": [
+              2,
+              4
+            ],
+            "radius": 2,
+            "ncc": 0.887553
+          },
+          {
+            "level": 3,
+            "scale": 8,
+            "width": 468,
+            "height": 403,
+            "prediction": [
+              4,
+              8
+            ],
+            "offset": [
+              4,
+              9
+            ],
+            "radius": 2,
+            "ncc": 0.885049
+          },
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 936,
+            "height": 805,
+            "prediction": [
+              8,
+              18
+            ],
+            "offset": [
+              8,
+              18
+            ],
+            "radius": 2,
+            "ncc": 0.873124
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 1871,
+            "height": 1609,
+            "prediction": [
+              16,
+              36
+            ],
+            "offset": [
+              17,
+              36
+            ],
+            "radius": 2,
+            "ncc": 0.862226
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 3741,
+            "height": 3218,
+            "prediction": [
+              34,
+              72
+            ],
+            "offset": [
+              33,
+              71
+            ],
+            "radius": 2,
+            "ncc": 0.852357
+          }
+        ]
+      },
+      "crop_bounds": [
+        33,
+        71,
+        3741,
+        3218
+      ],
+      "output_size": [
+        3708,
+        3147
+      ],
+      "total_seconds": 3.343
+    },
+    {
+      "id": "01164v",
+      "source": "01164v.jpg",
+      "source_size": [
+        396,
+        1024
+      ],
+      "channel_size": [
+        396,
+        341
+      ],
+      "discarded_rows": 1,
+      "single_size": [
+        396,
+        341
+      ],
+      "single": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          3,
+          11
+        ],
+        "green_ncc": 0.894895,
+        "red_ncc": 0.726949,
+        "seconds": 0.457
+      },
+      "pyramid": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          3,
+          11
+        ],
+        "seconds": 0.06,
+        "green_trace": [
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 99,
+            "height": 86,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              1
+            ],
+            "radius": 15,
+            "ncc": 0.911889
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 198,
+            "height": 171,
+            "prediction": [
+              0,
+              2
+            ],
+            "offset": [
+              1,
+              3
+            ],
+            "radius": 2,
+            "ncc": 0.913923
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 396,
+            "height": 341,
+            "prediction": [
+              2,
+              6
+            ],
+            "offset": [
+              2,
+              6
+            ],
+            "radius": 2,
+            "ncc": 0.894895
+          }
+        ],
+        "red_trace": [
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 99,
+            "height": 86,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              1,
+              3
+            ],
+            "radius": 15,
+            "ncc": 0.71958
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 198,
+            "height": 171,
+            "prediction": [
+              2,
+              6
+            ],
+            "offset": [
+              2,
+              6
+            ],
+            "radius": 2,
+            "ncc": 0.714317
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 396,
+            "height": 341,
+            "prediction": [
+              4,
+              12
+            ],
+            "offset": [
+              3,
+              11
+            ],
+            "radius": 2,
+            "ncc": 0.726949
+          }
+        ]
+      },
+      "crop_bounds": [
+        3,
+        11,
+        396,
+        341
+      ],
+      "output_size": [
+        393,
+        330
+      ],
+      "total_seconds": 0.546
+    },
+    {
+      "id": "01269v",
+      "source": "01269v.jpg",
+      "source_size": [
+        395,
+        1024
+      ],
+      "channel_size": [
+        395,
+        341
+      ],
+      "discarded_rows": 1,
+      "single_size": [
+        395,
+        341
+      ],
+      "single": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          3,
+          14
+        ],
+        "green_ncc": 0.69247,
+        "red_ncc": 0.352108,
+        "seconds": 0.457
+      },
+      "pyramid": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          3,
+          14
+        ],
+        "seconds": 0.06,
+        "green_trace": [
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 99,
+            "height": 86,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              1,
+              2
+            ],
+            "radius": 15,
+            "ncc": 0.6098
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 198,
+            "height": 171,
+            "prediction": [
+              2,
+              4
+            ],
+            "offset": [
+              1,
+              3
+            ],
+            "radius": 2,
+            "ncc": 0.702721
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 395,
+            "height": 341,
+            "prediction": [
+              2,
+              6
+            ],
+            "offset": [
+              2,
+              6
+            ],
+            "radius": 2,
+            "ncc": 0.69247
+          }
+        ],
+        "red_trace": [
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 99,
+            "height": 86,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              1,
+              4
+            ],
+            "radius": 15,
+            "ncc": 0.277378
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 198,
+            "height": 171,
+            "prediction": [
+              2,
+              8
+            ],
+            "offset": [
+              1,
+              7
+            ],
+            "radius": 2,
+            "ncc": 0.339265
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 395,
+            "height": 341,
+            "prediction": [
+              2,
+              14
+            ],
+            "offset": [
+              3,
+              14
+            ],
+            "radius": 2,
+            "ncc": 0.352108
+          }
+        ]
+      },
+      "crop_bounds": [
+        3,
+        14,
+        395,
+        341
+      ],
+      "output_size": [
+        392,
+        327
+      ],
+      "total_seconds": 0.541
+    },
+    {
+      "id": "01522v",
+      "source": "01522v.jpg",
+      "source_size": [
+        391,
+        1024
+      ],
+      "channel_size": [
+        391,
+        341
+      ],
+      "discarded_rows": 1,
+      "single_size": [
+        391,
+        341
+      ],
+      "single": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          2,
+          13
+        ],
+        "green_ncc": 0.800866,
+        "red_ncc": 0.789823,
+        "seconds": 0.449
+      },
+      "pyramid": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          2,
+          13
+        ],
+        "seconds": 0.057,
+        "green_trace": [
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 98,
+            "height": 86,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              1
+            ],
+            "radius": 15,
+            "ncc": 0.836186
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 196,
+            "height": 171,
+            "prediction": [
+              0,
+              2
+            ],
+            "offset": [
+              1,
+              3
+            ],
+            "radius": 2,
+            "ncc": 0.831344
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 391,
+            "height": 341,
+            "prediction": [
+              2,
+              6
+            ],
+            "offset": [
+              2,
+              6
+            ],
+            "radius": 2,
+            "ncc": 0.800866
+          }
+        ],
+        "red_trace": [
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 98,
+            "height": 86,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              3
+            ],
+            "radius": 15,
+            "ncc": 0.833673
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 196,
+            "height": 171,
+            "prediction": [
+              0,
+              6
+            ],
+            "offset": [
+              1,
+              6
+            ],
+            "radius": 2,
+            "ncc": 0.818501
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 391,
+            "height": 341,
+            "prediction": [
+              2,
+              12
+            ],
+            "offset": [
+              2,
+              13
+            ],
+            "radius": 2,
+            "ncc": 0.789823
+          }
+        ]
+      },
+      "crop_bounds": [
+        2,
+        13,
+        391,
+        341
+      ],
+      "output_size": [
+        389,
+        328
+      ],
+      "total_seconds": 0.529
+    },
+    {
+      "id": "01597v",
+      "source": "01597v.jpg",
+      "source_size": [
+        395,
+        1024
+      ],
+      "channel_size": [
+        395,
+        341
+      ],
+      "discarded_rows": 1,
+      "single_size": [
+        395,
+        341
+      ],
+      "single": {
+        "green": [
+          1,
+          7
+        ],
+        "red": [
+          1,
+          15
+        ],
+        "green_ncc": 0.886682,
+        "red_ncc": 0.840005,
+        "seconds": 0.452
+      },
+      "pyramid": {
+        "green": [
+          1,
+          7
+        ],
+        "red": [
+          1,
+          16
+        ],
+        "seconds": 0.06,
+        "green_trace": [
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 99,
+            "height": 86,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              2
+            ],
+            "radius": 15,
+            "ncc": 0.888379
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 198,
+            "height": 171,
+            "prediction": [
+              0,
+              4
+            ],
+            "offset": [
+              1,
+              4
+            ],
+            "radius": 2,
+            "ncc": 0.89089
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 395,
+            "height": 341,
+            "prediction": [
+              2,
+              8
+            ],
+            "offset": [
+              1,
+              7
+            ],
+            "radius": 2,
+            "ncc": 0.886682
+          }
+        ],
+        "red_trace": [
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 99,
+            "height": 86,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              5
+            ],
+            "radius": 15,
+            "ncc": 0.84964
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 198,
+            "height": 171,
+            "prediction": [
+              0,
+              10
+            ],
+            "offset": [
+              0,
+              8
+            ],
+            "radius": 2,
+            "ncc": 0.852931
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 395,
+            "height": 341,
+            "prediction": [
+              0,
+              16
+            ],
+            "offset": [
+              1,
+              16
+            ],
+            "radius": 2,
+            "ncc": 0.845183
+          }
+        ]
+      },
+      "crop_bounds": [
+        1,
+        16,
+        395,
+        341
+      ],
+      "output_size": [
+        394,
+        325
+      ],
+      "total_seconds": 0.534
+    },
+    {
+      "id": "01598v",
+      "source": "01598v.jpg",
+      "source_size": [
+        392,
+        1024
+      ],
+      "channel_size": [
+        392,
+        341
+      ],
+      "discarded_rows": 1,
+      "single_size": [
+        392,
+        341
+      ],
+      "single": {
+        "green": [
+          0,
+          8
+        ],
+        "red": [
+          -1,
+          15
+        ],
+        "green_ncc": 0.851467,
+        "red_ncc": 0.641873,
+        "seconds": 0.452
+      },
+      "pyramid": {
+        "green": [
+          0,
+          8
+        ],
+        "red": [
+          -1,
+          16
+        ],
+        "seconds": 0.058,
+        "green_trace": [
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 98,
+            "height": 86,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              2
+            ],
+            "radius": 15,
+            "ncc": 0.87696
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 196,
+            "height": 171,
+            "prediction": [
+              0,
+              4
+            ],
+            "offset": [
+              0,
+              4
+            ],
+            "radius": 2,
+            "ncc": 0.877725
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 392,
+            "height": 341,
+            "prediction": [
+              0,
+              8
+            ],
+            "offset": [
+              0,
+              8
+            ],
+            "radius": 2,
+            "ncc": 0.851467
+          }
+        ],
+        "red_trace": [
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 98,
+            "height": 86,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              4
+            ],
+            "radius": 15,
+            "ncc": 0.738914
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 196,
+            "height": 171,
+            "prediction": [
+              0,
+              8
+            ],
+            "offset": [
+              -1,
+              8
+            ],
+            "radius": 2,
+            "ncc": 0.737361
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 392,
+            "height": 341,
+            "prediction": [
+              -2,
+              16
+            ],
+            "offset": [
+              -1,
+              16
+            ],
+            "radius": 2,
+            "ncc": 0.701912
+          }
+        ]
+      },
+      "crop_bounds": [
+        0,
+        16,
+        391,
+        341
+      ],
+      "output_size": [
+        391,
+        325
+      ],
+      "total_seconds": 0.532
+    },
+    {
+      "id": "01657u",
+      "source": "01657u.jpg",
+      "source_size": [
+        3761,
+        9637
+      ],
+      "channel_size": [
+        3761,
+        3212
+      ],
+      "discarded_rows": 1,
+      "single_size": [
+        400,
+        342
+      ],
+      "single": {
+        "green": [
+          1,
+          6
+        ],
+        "red": [
+          1,
+          12
+        ],
+        "green_ncc": 0.925331,
+        "red_ncc": 0.837437,
+        "seconds": 0.462
+      },
+      "pyramid": {
+        "green": [
+          9,
+          55
+        ],
+        "red": [
+          12,
+          117
+        ],
+        "seconds": 1.939,
+        "green_trace": [
+          {
+            "level": 5,
+            "scale": 32,
+            "width": 118,
+            "height": 101,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              2
+            ],
+            "radius": 15,
+            "ncc": 0.923834
+          },
+          {
+            "level": 4,
+            "scale": 16,
+            "width": 236,
+            "height": 201,
+            "prediction": [
+              0,
+              4
+            ],
+            "offset": [
+              1,
+              3
+            ],
+            "radius": 2,
+            "ncc": 0.925025
+          },
+          {
+            "level": 3,
+            "scale": 8,
+            "width": 471,
+            "height": 402,
+            "prediction": [
+              2,
+              6
+            ],
+            "offset": [
+              1,
+              7
+            ],
+            "radius": 2,
+            "ncc": 0.927214
+          },
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 941,
+            "height": 803,
+            "prediction": [
+              2,
+              14
+            ],
+            "offset": [
+              2,
+              14
+            ],
+            "radius": 2,
+            "ncc": 0.925916
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 1881,
+            "height": 1606,
+            "prediction": [
+              4,
+              28
+            ],
+            "offset": [
+              4,
+              27
+            ],
+            "radius": 2,
+            "ncc": 0.924703
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 3761,
+            "height": 3212,
+            "prediction": [
+              8,
+              54
+            ],
+            "offset": [
+              9,
+              55
+            ],
+            "radius": 2,
+            "ncc": 0.9232
+          }
+        ],
+        "red_trace": [
+          {
+            "level": 5,
+            "scale": 32,
+            "width": 118,
+            "height": 101,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              4
+            ],
+            "radius": 15,
+            "ncc": 0.836116
+          },
+          {
+            "level": 4,
+            "scale": 16,
+            "width": 236,
+            "height": 201,
+            "prediction": [
+              0,
+              8
+            ],
+            "offset": [
+              1,
+              7
+            ],
+            "radius": 2,
+            "ncc": 0.839811
+          },
+          {
+            "level": 3,
+            "scale": 8,
+            "width": 471,
+            "height": 402,
+            "prediction": [
+              2,
+              14
+            ],
+            "offset": [
+              1,
+              14
+            ],
+            "radius": 2,
+            "ncc": 0.839332
+          },
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 941,
+            "height": 803,
+            "prediction": [
+              2,
+              28
+            ],
+            "offset": [
+              3,
+              29
+            ],
+            "radius": 2,
+            "ncc": 0.838601
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 1881,
+            "height": 1606,
+            "prediction": [
+              6,
+              58
+            ],
+            "offset": [
+              6,
+              58
+            ],
+            "radius": 2,
+            "ncc": 0.836499
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 3761,
+            "height": 3212,
+            "prediction": [
+              12,
+              116
+            ],
+            "offset": [
+              12,
+              117
+            ],
+            "radius": 2,
+            "ncc": 0.834858
+          }
+        ]
+      },
+      "crop_bounds": [
+        12,
+        117,
+        3761,
+        3212
+      ],
+      "output_size": [
+        3749,
+        3095
+      ],
+      "total_seconds": 3.33
+    },
+    {
+      "id": "01725u",
+      "source": "01725u.jpg",
+      "source_size": [
+        3731,
+        9695
+      ],
+      "channel_size": [
+        3731,
+        3231
+      ],
+      "discarded_rows": 2,
+      "single_size": [
+        400,
+        346
+      ],
+      "single": {
+        "green": [
+          5,
+          8
+        ],
+        "red": [
+          8,
+          15
+        ],
+        "green_ncc": 0.834397,
+        "red_ncc": 0.649798,
+        "seconds": 0.461
+      },
+      "pyramid": {
+        "green": [
+          44,
+          77
+        ],
+        "red": [
+          77,
+          162
+        ],
+        "seconds": 1.891,
+        "green_trace": [
+          {
+            "level": 5,
+            "scale": 32,
+            "width": 117,
+            "height": 101,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              1,
+              2
+            ],
+            "radius": 15,
+            "ncc": 0.83168
+          },
+          {
+            "level": 4,
+            "scale": 16,
+            "width": 234,
+            "height": 202,
+            "prediction": [
+              2,
+              4
+            ],
+            "offset": [
+              3,
+              5
+            ],
+            "radius": 2,
+            "ncc": 0.851291
+          },
+          {
+            "level": 3,
+            "scale": 8,
+            "width": 467,
+            "height": 404,
+            "prediction": [
+              6,
+              10
+            ],
+            "offset": [
+              6,
+              10
+            ],
+            "radius": 2,
+            "ncc": 0.844441
+          },
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 933,
+            "height": 808,
+            "prediction": [
+              12,
+              20
+            ],
+            "offset": [
+              11,
+              19
+            ],
+            "radius": 2,
+            "ncc": 0.835658
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 1866,
+            "height": 1616,
+            "prediction": [
+              22,
+              38
+            ],
+            "offset": [
+              22,
+              39
+            ],
+            "radius": 2,
+            "ncc": 0.81493
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 3731,
+            "height": 3231,
+            "prediction": [
+              44,
+              78
+            ],
+            "offset": [
+              44,
+              77
+            ],
+            "radius": 2,
+            "ncc": 0.796526
+          }
+        ],
+        "red_trace": [
+          {
+            "level": 5,
+            "scale": 32,
+            "width": 117,
+            "height": 101,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              2,
+              5
+            ],
+            "radius": 15,
+            "ncc": 0.790351
+          },
+          {
+            "level": 4,
+            "scale": 16,
+            "width": 234,
+            "height": 202,
+            "prediction": [
+              4,
+              10
+            ],
+            "offset": [
+              5,
+              10
+            ],
+            "radius": 2,
+            "ncc": 0.781417
+          },
+          {
+            "level": 3,
+            "scale": 8,
+            "width": 467,
+            "height": 404,
+            "prediction": [
+              10,
+              20
+            ],
+            "offset": [
+              10,
+              20
+            ],
+            "radius": 2,
+            "ncc": 0.768398
+          },
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 933,
+            "height": 808,
+            "prediction": [
+              20,
+              40
+            ],
+            "offset": [
+              19,
+              40
+            ],
+            "radius": 2,
+            "ncc": 0.752621
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 1866,
+            "height": 1616,
+            "prediction": [
+              38,
+              80
+            ],
+            "offset": [
+              39,
+              81
+            ],
+            "radius": 2,
+            "ncc": 0.736842
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 3731,
+            "height": 3231,
+            "prediction": [
+              78,
+              162
+            ],
+            "offset": [
+              77,
+              162
+            ],
+            "radius": 2,
+            "ncc": 0.722724
+          }
+        ]
+      },
+      "crop_bounds": [
+        77,
+        162,
+        3731,
+        3231
+      ],
+      "output_size": [
+        3654,
+        3069
+      ],
+      "total_seconds": 3.309
+    },
+    {
+      "id": "01728v",
+      "source": "01728v.jpg",
+      "source_size": [
+        397,
+        1024
+      ],
+      "channel_size": [
+        397,
+        341
+      ],
+      "discarded_rows": 1,
+      "single_size": [
+        397,
+        341
+      ],
+      "single": {
+        "green": [
+          1,
+          8
+        ],
+        "red": [
+          1,
+          15
+        ],
+        "green_ncc": 0.948579,
+        "red_ncc": 0.807069,
+        "seconds": 0.458
+      },
+      "pyramid": {
+        "green": [
+          1,
+          8
+        ],
+        "red": [
+          1,
+          18
+        ],
+        "seconds": 0.059,
+        "green_trace": [
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 100,
+            "height": 86,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              2
+            ],
+            "radius": 15,
+            "ncc": 0.965726
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 199,
+            "height": 171,
+            "prediction": [
+              0,
+              4
+            ],
+            "offset": [
+              0,
+              4
+            ],
+            "radius": 2,
+            "ncc": 0.957412
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 397,
+            "height": 341,
+            "prediction": [
+              0,
+              8
+            ],
+            "offset": [
+              1,
+              8
+            ],
+            "radius": 2,
+            "ncc": 0.948579
+          }
+        ],
+        "red_trace": [
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 100,
+            "height": 86,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              5
+            ],
+            "radius": 15,
+            "ncc": 0.927049
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 199,
+            "height": 171,
+            "prediction": [
+              0,
+              10
+            ],
+            "offset": [
+              1,
+              9
+            ],
+            "radius": 2,
+            "ncc": 0.928476
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 397,
+            "height": 341,
+            "prediction": [
+              2,
+              18
+            ],
+            "offset": [
+              1,
+              18
+            ],
+            "radius": 2,
+            "ncc": 0.915621
+          }
+        ]
+      },
+      "crop_bounds": [
+        1,
+        18,
+        397,
+        341
+      ],
+      "output_size": [
+        396,
+        323
+      ],
+      "total_seconds": 0.545
+    },
+    {
+      "id": "01861a",
+      "source": "01861a.jpg",
+      "source_size": [
+        3741,
+        9686
+      ],
+      "channel_size": [
+        3741,
+        3228
+      ],
+      "discarded_rows": 2,
+      "single_size": [
+        400,
+        345
+      ],
+      "single": {
+        "green": [
+          4,
+          8
+        ],
+        "red": [
+          7,
+          15
+        ],
+        "green_ncc": 0.939211,
+        "red_ncc": 0.857116,
+        "seconds": 0.46
+      },
+      "pyramid": {
+        "green": [
+          39,
+          71
+        ],
+        "red": [
+          63,
+          148
+        ],
+        "seconds": 1.919,
+        "green_trace": [
+          {
+            "level": 5,
+            "scale": 32,
+            "width": 117,
+            "height": 101,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              1,
+              2
+            ],
+            "radius": 15,
+            "ncc": 0.954442
+          },
+          {
+            "level": 4,
+            "scale": 16,
+            "width": 234,
+            "height": 202,
+            "prediction": [
+              2,
+              4
+            ],
+            "offset": [
+              2,
+              4
+            ],
+            "radius": 2,
+            "ncc": 0.945195
+          },
+          {
+            "level": 3,
+            "scale": 8,
+            "width": 468,
+            "height": 404,
+            "prediction": [
+              4,
+              8
+            ],
+            "offset": [
+              5,
+              9
+            ],
+            "radius": 2,
+            "ncc": 0.949447
+          },
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 936,
+            "height": 807,
+            "prediction": [
+              10,
+              18
+            ],
+            "offset": [
+              10,
+              18
+            ],
+            "radius": 2,
+            "ncc": 0.944108
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 1871,
+            "height": 1614,
+            "prediction": [
+              20,
+              36
+            ],
+            "offset": [
+              19,
+              36
+            ],
+            "radius": 2,
+            "ncc": 0.939662
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 3741,
+            "height": 3228,
+            "prediction": [
+              38,
+              72
+            ],
+            "offset": [
+              39,
+              71
+            ],
+            "radius": 2,
+            "ncc": 0.936987
+          }
+        ],
+        "red_trace": [
+          {
+            "level": 5,
+            "scale": 32,
+            "width": 117,
+            "height": 101,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              2,
+              5
+            ],
+            "radius": 15,
+            "ncc": 0.89575
+          },
+          {
+            "level": 4,
+            "scale": 16,
+            "width": 234,
+            "height": 202,
+            "prediction": [
+              4,
+              10
+            ],
+            "offset": [
+              4,
+              9
+            ],
+            "radius": 2,
+            "ncc": 0.893046
+          },
+          {
+            "level": 3,
+            "scale": 8,
+            "width": 468,
+            "height": 404,
+            "prediction": [
+              8,
+              18
+            ],
+            "offset": [
+              8,
+              18
+            ],
+            "radius": 2,
+            "ncc": 0.885428
+          },
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 936,
+            "height": 807,
+            "prediction": [
+              16,
+              36
+            ],
+            "offset": [
+              16,
+              37
+            ],
+            "radius": 2,
+            "ncc": 0.884294
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 1871,
+            "height": 1614,
+            "prediction": [
+              32,
+              74
+            ],
+            "offset": [
+              31,
+              74
+            ],
+            "radius": 2,
+            "ncc": 0.8803
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 3741,
+            "height": 3228,
+            "prediction": [
+              62,
+              148
+            ],
+            "offset": [
+              63,
+              148
+            ],
+            "radius": 2,
+            "ncc": 0.87755
+          }
+        ]
+      },
+      "crop_bounds": [
+        63,
+        148,
+        3741,
+        3228
+      ],
+      "output_size": [
+        3678,
+        3080
+      ],
+      "total_seconds": 3.315
+    },
+    {
+      "id": "10131v",
+      "source": "10131v.jpg",
+      "source_size": [
+        400,
+        1024
+      ],
+      "channel_size": [
+        400,
+        341
+      ],
+      "discarded_rows": 1,
+      "single_size": [
+        400,
+        341
+      ],
+      "single": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          3,
+          12
+        ],
+        "green_ncc": 0.926602,
+        "red_ncc": 0.876708,
+        "seconds": 0.457
+      },
+      "pyramid": {
+        "green": [
+          2,
+          6
+        ],
+        "red": [
+          3,
+          12
+        ],
+        "seconds": 0.058,
+        "green_trace": [
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 100,
+            "height": 86,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              1,
+              1
+            ],
+            "radius": 15,
+            "ncc": 0.935314
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 200,
+            "height": 171,
+            "prediction": [
+              2,
+              2
+            ],
+            "offset": [
+              1,
+              3
+            ],
+            "radius": 2,
+            "ncc": 0.946232
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 400,
+            "height": 341,
+            "prediction": [
+              2,
+              6
+            ],
+            "offset": [
+              2,
+              6
+            ],
+            "radius": 2,
+            "ncc": 0.926602
+          }
+        ],
+        "red_trace": [
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 100,
+            "height": 86,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              1,
+              3
+            ],
+            "radius": 15,
+            "ncc": 0.895669
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 200,
+            "height": 171,
+            "prediction": [
+              2,
+              6
+            ],
+            "offset": [
+              2,
+              6
+            ],
+            "radius": 2,
+            "ncc": 0.887748
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 400,
+            "height": 341,
+            "prediction": [
+              4,
+              12
+            ],
+            "offset": [
+              3,
+              12
+            ],
+            "radius": 2,
+            "ncc": 0.876708
+          }
+        ]
+      },
+      "crop_bounds": [
+        3,
+        12,
+        400,
+        341
+      ],
+      "output_size": [
+        397,
+        329
+      ],
+      "total_seconds": 0.544
+    },
+    {
+      "id": "31421v",
+      "source": "31421v.jpg",
+      "source_size": [
+        398,
+        1024
+      ],
+      "channel_size": [
+        398,
+        341
+      ],
+      "discarded_rows": 1,
+      "single_size": [
+        398,
+        341
+      ],
+      "single": {
+        "green": [
+          0,
+          8
+        ],
+        "red": [
+          0,
+          13
+        ],
+        "green_ncc": 0.970624,
+        "red_ncc": 0.892072,
+        "seconds": 0.45
+      },
+      "pyramid": {
+        "green": [
+          0,
+          8
+        ],
+        "red": [
+          0,
+          13
+        ],
+        "seconds": 0.059,
+        "green_trace": [
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 100,
+            "height": 86,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              2
+            ],
+            "radius": 15,
+            "ncc": 0.982726
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 199,
+            "height": 171,
+            "prediction": [
+              0,
+              4
+            ],
+            "offset": [
+              0,
+              4
+            ],
+            "radius": 2,
+            "ncc": 0.980948
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 398,
+            "height": 341,
+            "prediction": [
+              0,
+              8
+            ],
+            "offset": [
+              0,
+              8
+            ],
+            "radius": 2,
+            "ncc": 0.970624
+          }
+        ],
+        "red_trace": [
+          {
+            "level": 2,
+            "scale": 4,
+            "width": 100,
+            "height": 86,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              3
+            ],
+            "radius": 15,
+            "ncc": 0.893291
+          },
+          {
+            "level": 1,
+            "scale": 2,
+            "width": 199,
+            "height": 171,
+            "prediction": [
+              0,
+              6
+            ],
+            "offset": [
+              0,
+              7
+            ],
+            "radius": 2,
+            "ncc": 0.896863
+          },
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 398,
+            "height": 341,
+            "prediction": [
+              0,
+              14
+            ],
+            "offset": [
+              0,
+              13
+            ],
+            "radius": 2,
+            "ncc": 0.892072
+          }
+        ]
+      },
+      "crop_bounds": [
+        0,
+        13,
+        398,
+        341
+      ],
+      "output_size": [
+        398,
+        328
+      ],
+      "total_seconds": 0.531
+    },
+    {
+      "id": "service-pnp-prok-00000-00031_150px",
+      "source": "service-pnp-prok-00000-00031_150px.jpg",
+      "source_size": [
+        58,
+        150
+      ],
+      "channel_size": [
+        58,
+        50
+      ],
+      "discarded_rows": 0,
+      "single_size": [
+        58,
+        50
+      ],
+      "single": {
+        "green": [
+          0,
+          1
+        ],
+        "red": [
+          0,
+          5
+        ],
+        "green_ncc": 0.888477,
+        "red_ncc": 0.694382,
+        "seconds": 0.023
+      },
+      "pyramid": {
+        "green": [
+          0,
+          1
+        ],
+        "red": [
+          0,
+          5
+        ],
+        "seconds": 0.023,
+        "green_trace": [
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 58,
+            "height": 50,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              1
+            ],
+            "radius": 15,
+            "ncc": 0.888477
+          }
+        ],
+        "red_trace": [
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 58,
+            "height": 50,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              5
+            ],
+            "radius": 15,
+            "ncc": 0.694382
+          }
+        ]
+      },
+      "crop_bounds": [
+        0,
+        5,
+        58,
+        50
+      ],
+      "output_size": [
+        58,
+        45
+      ],
+      "total_seconds": 0.051
+    },
+    {
+      "id": "service-pnp-prok-00100-00159_150px",
+      "source": "service-pnp-prok-00100-00159_150px.jpg",
+      "source_size": [
+        59,
+        150
+      ],
+      "channel_size": [
+        59,
+        50
+      ],
+      "discarded_rows": 0,
+      "single_size": [
+        59,
+        50
+      ],
+      "single": {
+        "green": [
+          0,
+          1
+        ],
+        "red": [
+          0,
+          1
+        ],
+        "green_ncc": 0.94395,
+        "red_ncc": 0.86646,
+        "seconds": 0.024
+      },
+      "pyramid": {
+        "green": [
+          0,
+          1
+        ],
+        "red": [
+          0,
+          1
+        ],
+        "seconds": 0.023,
+        "green_trace": [
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 59,
+            "height": 50,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              1
+            ],
+            "radius": 15,
+            "ncc": 0.94395
+          }
+        ],
+        "red_trace": [
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 59,
+            "height": 50,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              1
+            ],
+            "radius": 15,
+            "ncc": 0.86646
+          }
+        ]
+      },
+      "crop_bounds": [
+        0,
+        1,
+        59,
+        50
+      ],
+      "output_size": [
+        59,
+        49
+      ],
+      "total_seconds": 0.051
+    },
+    {
+      "id": "service-pnp-prok-00100-00181_150px",
+      "source": "service-pnp-prok-00100-00181_150px.jpg",
+      "source_size": [
+        58,
+        150
+      ],
+      "channel_size": [
+        58,
+        50
+      ],
+      "discarded_rows": 0,
+      "single_size": [
+        58,
+        50
+      ],
+      "single": {
+        "green": [
+          0,
+          0
+        ],
+        "red": [
+          0,
+          1
+        ],
+        "green_ncc": 0.981514,
+        "red_ncc": 0.948556,
+        "seconds": 0.022
+      },
+      "pyramid": {
+        "green": [
+          0,
+          0
+        ],
+        "red": [
+          0,
+          1
+        ],
+        "seconds": 0.023,
+        "green_trace": [
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 58,
+            "height": 50,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "radius": 15,
+            "ncc": 0.981514
+          }
+        ],
+        "red_trace": [
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 58,
+            "height": 50,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              1
+            ],
+            "radius": 15,
+            "ncc": 0.948556
+          }
+        ]
+      },
+      "crop_bounds": [
+        0,
+        1,
+        58,
+        50
+      ],
+      "output_size": [
+        58,
+        49
+      ],
+      "total_seconds": 0.05
+    },
+    {
+      "id": "service-pnp-prok-00600-00656_150px",
+      "source": "service-pnp-prok-00600-00656_150px.jpg",
+      "source_size": [
+        58,
+        150
+      ],
+      "channel_size": [
+        58,
+        50
+      ],
+      "discarded_rows": 0,
+      "single_size": [
+        58,
+        50
+      ],
+      "single": {
+        "green": [
+          0,
+          1
+        ],
+        "red": [
+          0,
+          2
+        ],
+        "green_ncc": 0.958453,
+        "red_ncc": 0.902884,
+        "seconds": 0.022
+      },
+      "pyramid": {
+        "green": [
+          0,
+          1
+        ],
+        "red": [
+          0,
+          2
+        ],
+        "seconds": 0.024,
+        "green_trace": [
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 58,
+            "height": 50,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              1
+            ],
+            "radius": 15,
+            "ncc": 0.958453
+          }
+        ],
+        "red_trace": [
+          {
+            "level": 0,
+            "scale": 1,
+            "width": 58,
+            "height": 50,
+            "prediction": [
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              2
+            ],
+            "radius": 15,
+            "ncc": 0.902884
+          }
+        ]
+      },
+      "crop_bounds": [
+        0,
+        2,
+        58,
+        50
+      ],
+      "output_size": [
+        58,
+        48
+      ],
+      "total_seconds": 0.051
+    }
+  ]
+}
