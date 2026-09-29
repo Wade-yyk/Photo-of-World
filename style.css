@@ -20,3 +20,8 @@
 }
 .print-label{display:none}
 
+@media print{
+  .hero{padding:20px 0}
+  #portraits .explanation{margin-top:18px;padding-top:14px}
+  #portraits .explanation p{font-size:9.5px;line-height:1.6}
+}

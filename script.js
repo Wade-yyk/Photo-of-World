@@ -8,8 +8,8 @@ portraits.forEach(button => {
     const abstract = button.getAttribute('aria-pressed') !== 'true';
     button.setAttribute('aria-pressed', String(abstract));
     img.src = abstract ? button.dataset.abstract : button.dataset.original;
-    img.alt = abstract ? `Playful alter ego for: ${originalAlt}` : originalAlt;
-    button.querySelector('.flip-hint').textContent = abstract ? '↻ BACK TO PORTRAIT' : '↻ ALTER EGO';
+    img.alt = abstract ? `Easter egg for: ${originalAlt}` : originalAlt;
+    button.querySelector('.flip-hint').textContent = abstract ? '↻ BACK TO PORTRAIT' : '↻ EASTER EGG';
   });
 });
 const slider = document.querySelector('#frame-slider');

@@ -10,7 +10,7 @@ Open `index.html` directly in a browser, or run `python -m http.server 8000` fro
 
 ## Included
 
-- Portraits: five original selfies with distance and focal-length labels. Four have reversible abstract-image toggles; 1.2× has no supplied abstract counterpart.
+- Portraits: five original selfies with distance and focal-length labels. Four have reversible abstract-image toggles; 0.8× remains an original-only portrait. The original 0.8× abstract image is mapped to 1.2×, and the 2.0× / 4.0× abstract images are swapped.
 - Architecture: IMG_8609, IMG_8610, IMG_8613, and IMG_8615, labeled with their EXIF 35 mm equivalent focal lengths (206, 160, 97, and 24 mm).
 - Dolly zoom: all 11 photographs, IMG_8595–IMG_8605, in near-to-far order; an animated reversing GIF; a draggable, keyboard-accessible frame slider; thumbnail selection; playback and step controls.
 - English observations and explanations for all three experiments.
@@ -30,6 +30,6 @@ Use the page's **Print / Save PDF** button to regenerate the PDF after editing. 
 
 ## Publishing
 
-This folder is ready for static hosting, including GitHub Pages. Keep `index.html` at the publishing root with `style.css`, `script.js`, and `assets/` beside it. All project asset references are relative, so a repository subpath works. Publishing and GitHub pushes have not been performed by this local edit.
+This folder is ready for static hosting, including GitHub Pages. Keep `index.html` at the publishing root with `style.css`, `script.js`, and `assets/` beside it. All project asset references are relative, so a repository subpath works. The site is published at https://wade-yyk.github.io/Photo-of-World/.
 
 PART TWO (Prokudin-Gorskii image alignment) is outside this webpage's scope.
